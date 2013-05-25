@@ -1,0 +1,19 @@
+{
+  "name": "eval-on-twitter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ntwitter": "~0.5.0",
+    "request": "~2.21.0",
+    "ent": "~0.0.5"
+  },
+  "subdomain": "alucky0707-eval_on_twitter",
+  "engines": {
+    "node": "0.8.19",
+    "npm": "1.2.10"
+  }
+}
+
