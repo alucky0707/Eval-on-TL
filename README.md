@@ -14,7 +14,7 @@ If you do, the bot evaluats your program and reply this results to you.
 
 ##Support Languages
 
-In May 5 2013, there are supporting.
+In May 25 2013, there are supporting.
 
 |language name|execute command|
 |-------------|---------------|

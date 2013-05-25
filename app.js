@@ -90,23 +90,4 @@ function replyTo(screen_name, tweet_id, text) {
   });
 }
 
-function doLLEval(text, callback){
-  var
-  lang = text[0],
-  src = text.slice(1).join(' ');
-  console.log(lang,src);
-  request.get('http://api.dan.co.jp/lleval.cgi',{qs: {s: src, l: lang}}, function(err, res, body){
-    if(err || !body) return;
-    body = JSON.parse(body);
-    console.log("body",body);
-    if(typeof body.error !== 'undefined'){
-      console.log('error');
-      callback(body.error);
-    }else{
-      console.log('ok');
-      callback(body['stdout'] + "\n" + body['stderr']);
-    }
-  });
-}
-
 startStream();
