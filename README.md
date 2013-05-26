@@ -12,6 +12,16 @@ You are tweeting now, so you cannot leave time-line. But you suddenly think to w
 
 If you do, the bot evaluats your program and reply this results to you.
 
+For example,
+
+```
+@eval c int main(){
+  printf("Hello, Twitter World!");
+}
+```
+
+Let's tweet!
+
 ##Support Languages
 
 In May 25 2013, there are supporting.
