@@ -38,7 +38,7 @@ function onTweet(data) {
   text = html.decode(data.text);
   if(is_tweet_valid.test(text)) {
     console.log('on tweet');
-    text = text.replace(is_tweet_valid, '').match(/^(\w+)\s*(.*)$/);
+    text = text.replace(is_tweet_valid, '').match(/^(\w+)\s*((?:.|\n)*)$/);
     if(text === null) return;
     lang = text[1];
     src = text[2];

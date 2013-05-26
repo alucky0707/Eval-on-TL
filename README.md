@@ -48,13 +48,19 @@ In May 25 2013, there are supporting.
 
 But, really evaluating is entrusted by [lleval]. So, you should see it.
 
-##LICENSE
+##License
 
 This project is licensed by [New BSD License](http://www.freebsd.org/copyright/freebsd-license.html).
 
 ##Special Thanks
                                                       
  * [dankogai](https://twitter.com/#!/dankogai) - Thank you for providing [lleval]!
+
+##Also
+
+Please follow [@eval_of](https://twitter.com/eval_of) on Twitter!
+
+- - -
 
 (c)alucky0707 <alucky0707@myopera.com>
 
