@@ -28,7 +28,7 @@ Let's tweet!
 
 In May 25 2013, there are supporting.
 
-|_<language name>_|execute command|
+|`<language name>`|execute command|
 |-------------|---------------|
 |awk|awk -f|
 |bas|bwbasic|
@@ -60,7 +60,7 @@ In May 25 2013, there are supporting.
 
 But, really evaluating is entrusted by [lleval]. So, you should see it.
 
-[New in 2013/06/12] Support the "D" Language (_<language name>_ is `d` or `dlang`) and the "C#" Language (_<language name>_ is `cs` or `csharp`), both are actioning via [ideone].
+[New in 2013/06/12] Support the "D" Language (`<language name>` is `d` or `dlang`) and the "C#" Language (`<language name>` is `cs` or `csharp`), both are actioning via [ideone].
 
 ##License
 
@@ -80,4 +80,4 @@ Please follow [@eval_of](https://twitter.com/eval_of) on Twitter!
 (c)alucky0707 <alucky0707@myopera.com>
 
 [lleval]: http://colabv6.dan.co.jp/lleval.html
-[ideone]:
+[ideone]: http://ideone.com/
