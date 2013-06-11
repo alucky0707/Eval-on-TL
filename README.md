@@ -26,7 +26,7 @@ Let's tweet!
 
 ##Support Languages
 
-In May 25 2013, there are supporting.
+In May 25 2013, there are supported.
 
 |`<language name>`|execute command|
 |-------------|---------------|
